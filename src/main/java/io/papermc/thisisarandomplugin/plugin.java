@@ -1,4 +1,4 @@
-package io.papermc.thisisarandompluginr;
+package io.papermc.thisisarandomplugin;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -18,7 +18,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.destroystokyo.paper.event.player.PlayerJumpEvent;
 
-public class ElevatorPlugin extends JavaPlugin implements Listener {
+public class plugin extends JavaPlugin implements Listener {
 
     private final String TARGET_ELEVATOR_KEY = "televator:televator";
     private final int MAX_SEARCH_DISTANCE = 64;
